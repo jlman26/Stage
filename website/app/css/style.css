@@ -1,0 +1,115 @@
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.gradient-custom {
+
+background: rgb(53, 0, 109);
+
+
+background: -webkit-linear-gradient(to right, rgb(255, 255, 255), rgb(13, 0, 255));
+
+
+background: linear-gradient(to right, rgb(18, 32, 215), rgb(0, 60, 151));
+}
+
+.bg-custom {
+background-color: rgba(0, 0, 0, 0.7); 
+}
+
+body {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+color: #ffffff;
+}
+
+.navbar .navbar-brand img {
+transition: transform 0.3s;
+}
+
+.navbar .navbar-brand img:hover {
+transform: scale(1.1);
+}
+
+
+.form-inline input {
+color: #ffffff;
+background-color: rgba(0, 0, 0, 0.7);
+border-color: #ffffff;
+}
+
+.card {
+transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+transform: translateY(-10px);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+flex-shrink: 0;
+}
+
+.content {
+height: 2000px;
+}
+
+.no-scroll {
+overflow-y: hidden; 
+}
+
+.background-button {
+background-image: url('background.gif');
+background-size: cover;
+background-position: center;
+position: relative;
+color: white;
+border: none;
+padding: 10px 20px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+overflow: hidden;
+transition: background-position 0.1s ease-out;
+}
+
+.background-button:hover {
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+
+.btn-transparent {
+color: #ffffff;
+background-color: transparent;
+border-color: transparent;
+position: fixed;
+top: 10px;
+right: 10px;
+}
+
+.btn-btn {
+color: #000000;
+width: 193px;
+
+border-color: transparent;
+
+}
+
+.form-group { 
+
+position: relative;
+top: 300px;
+right: 700px;
+
+
+
+}
+
+
